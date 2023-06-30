@@ -1,0 +1,595 @@
+body {
+    background-color: #FFD93D; 
+    margin: 0px;
+    font-family: Bangers, sans-serif;
+}
+
+@font-face{
+    font-family: Bangers;
+    src: url(Bangers-Regular.ttf);
+}
+
+nav {
+    position: fixed;
+    background-color: #FFD93D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-bottom: 2px solid #4F200D;
+    font-family: Bangers;
+    text-shadow: 1px 1px #F6F1E9;
+}
+
+nav > ul {
+    margin-left: auto;
+    margin-right: 15px; 
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > span > img {
+    height: 50px;
+    width: auto;
+    padding: 8px;
+    border-left: 100%;
+    border-right: 100%;
+}
+
+nav > figure > img {
+    height: 30px;
+    width: auto;
+    padding: 8px;
+}
+
+nav > figure {
+    display: flex;
+    align-items: center;
+}
+
+.header-section {
+    text-align: center;
+    color: #F6F1E9;
+    background-color: #4F200D;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 45px;
+    font-family: Bangers; 
+}
+
+nav > figure .circle-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 10px;
+    background-color: #F4F4F4;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    color: #4F200D;
+    top: 5px;
+    /* right: -5px; */
+}
+
+.relative-place {
+    position: relative;
+}
+
+.header-section h1 {
+    margin: 15px;
+    font-size: 30px;
+    text-shadow: 1px 1px #FFD93D;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.header-section h1:hover {
+    font-size: 60px;
+}
+
+.header-section p {
+    margin: 0;
+    text-shadow: 1px 1px #FFD93D;
+}
+
+.p-anime{
+    position: relative;
+    animation: textmove 5s;
+}
+
+@keyframes textmove {
+    from {left: 10%;}
+    to {left: 30%;}
+}
+
+img {
+    width: 100%;
+}
+/* OVERIDE PRIORITY BY CLASS AND ID? */
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px #F6F1E9;
+}
+
+.hamster-figures {
+    font-family: Bangers; 
+    background-color: #FF8400;
+    background-image: linear-gradient(to bottom right, #F6F1E9, #FF8400);
+}
+
+.grid-place{
+    display: grid;
+    gap: 10px;
+    grid-template: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px,auto);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.desc {
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+    text-align: right;
+    object-fit: cover;
+}
+
+#zero-one {
+    opacity: 1;
+    background-image: url("https://i.ytimg.com/vi/11O4LJ5346A/maxresdefault.jpg");
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 100%;
+}
+
+#zero-two {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 1px 1px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    border-top-left-radius: 100%;
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#zero-two:hover {
+    opacity: 1;
+} 
+
+.descr {
+    grid-column: 3;
+    grid-row: 1 / 5;
+    text-align: left;
+}
+
+#zero-three {
+    opacity: 1;
+    background-image: url("https://www.mammalage.com/wp-content/uploads/2021/03/campbells-dwarf-hamster.jpg");
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 50%;
+}
+
+#zero-four {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    border-top-right-radius: 50%;
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#zero-four:hover {
+    opacity: 1;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 5 / 10;
+    text-align: center;
+}
+
+#syrian-hamster {
+    opacity: 1;
+    background-image: url("https://i.ebayimg.com/00/s/NzY1WDkxNQ==/z/dHgAAOSwvqFcsmaK/$_86.JPG");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#cricetus-auratus {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#cricetus-auratus:hover {
+    opacity: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 5 / 7;
+    text-align: center;
+}
+
+#roborovski-hamster {
+    opacity: 1;
+    background-image: url("https://live.staticflickr.com/4/5097770_1c3c7d580f_b.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#phodopus-roborovski {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#phodopus-roborovski:hover {
+    opacity: 1;
+}
+
+.three {
+    grid-column: 2;
+    grid-row: 7 / 10;
+    text-align: center;
+}
+
+#chinese-hamster {
+    opacity: 1;
+    background-image: url("https://dwarfhamsterguide.com/wp-content/uploads/2017/10/Dwarf-Species-Slideshow-2-881x881.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#phodopus-griseus {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#phodopus-griseus:hover {
+    opacity: 1;
+}
+
+.caption {
+    grid-column: 3;
+    grid-row: 5 / 7;
+    text-align: center;
+    /* color: darkslategray; */
+}
+
+#five {
+    opacity: 1;
+    background-image: url("https://media.istockphoto.com/photos/hamster-picture-id183318316?k=6&m=183318316&s=612x612&w=0&h=_e8OX0MmFDxVwIm-bdxcTl3RzaJENflDjui9Maj2dYI=");
+    background-position: center;
+    background-size: cover;
+}
+
+#six {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#six:hover {
+    opacity: 1;
+}        
+
+.description {
+    grid-column: 3;
+    grid-row: 7 / 10;
+    text-align: center;
+}
+
+#seven {
+    opacity: 1;
+    background-image: url("https://i.pinimg.com/736x/48/5b/ef/485beff95b9b83fc41b9c2abc12a0e9c--dwarf-hamsters-new-babies.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#eight {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#eight:hover {
+    opacity: 1;
+}   
+
+.descri {
+    grid-column: 1 / 4;
+    grid-row: 10 / 15;
+    text-align: center;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#nine {
+    opacity: 1;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/28/a1/52/28a152eac79125d785e69e13173d9084.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#ten {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    text-shadow: 3px 3px #070403;
+    background-color: rgba(79, 32, 13, 0.60);
+    filter: drop-shadow(60% 60% 64%) invert(75%);
+}
+
+#ten:hover {
+    opacity: 1;
+}
+
+.grid-place img {
+width: 0;
+height: 0;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .caption {
+    grid-column: 4;
+    grid-row: 4;
+    }
+} */
+
+/* .all-hamsters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 35px;
+    padding-right: 100px;
+}
+
+.syrian-hamster {
+    width: 70%;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+.three-hamsters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.other-hamster {
+
+    border-top-right-radius: 90%;
+    border-bottom-left-radius: 90%;   
+}
+
+#winter-hamster {
+    width: 45%;
+
+}
+
+#roborovski-hamster {
+    width: 45%;
+
+}
+
+#chinese-hamster {
+    width: 40%;
+
+} */
+
+.hamster-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF8400;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hamster-knowledge {
+    font-family: Bangers;
+    background-color: #FF8400;
+    padding-left: 50px;
+}
+
+figure .flex-place {
+    text-align: center;
+    background-color: #FF8400;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure .flex-place img {
+    height: 250px;
+    width: auto;
+    /* padding-right: 50px; */
+}
+
+.hamster-seed {
+    /* width: 200px; */
+    /* height: 200px;
+    width: auto; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-family: Bangers;
+    /* text-align: center; */
+}
+
+.hamster-behavior .flex-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamster-behavior {
+    font-family: Bangers;
+    background-color: #FF8400;
+}
+
+#hamster-eat {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    color: azure;
+    background-color: rgba(79, 32, 13, 0.60);
+    /* filter: drop-shadow(16px 16px 20px) invert(75%); */
+}
+
+#hamster-eat:hover {
+    opacity: 1;
+}
+
+picture {
+    object-fit: cover;
+}
+
+.hamster-form-section {
+    font-family: Bangers;
+    background-color: #4F200D;
+    color: #F6F1E9;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.hamster-form-section form {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+button[type="submit"] {
+    color: #F4F4F4;
+    background-color: transparent;
+    border: 3px solid #F4F4F4;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* for tablet and desktop */
+@media only screen and (min-width: 768px) {
+    .hamster-knowledge > .flex-place {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hamster-knowledge > .flex-place figure {
+      margin-left: auto;
+    }
+  
+    /* .hamster-knowledge > .flex-place figure img {
+      height: 50px;
+    } */
+  
+    .hamster-knowledge > .flex-place figcaption {
+      text-align: center;
+      margin-top: 15px;
+    }
+  
+    .hamster-knowledge > .flex-place.row-reverse {
+      flex-direction: column;
+    }
+  
+    .hamster-knowledge > .flex-place.row-reverse p {
+      margin-left: 32px;
+    }
+  
+    .hamster-knowledge > .flex-place.row-reverse figure {
+      /* margin-left: 40px; */
+      min-width: 320px;
+    }
+  
+    iframe {
+      max-width: 480px;
+    }
+  
+    /* .hamster-figures .all-hamsters {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 80px; */
+      /* grid-auto-rows: 50px 50px; */
+    /* } */
+  
+    /* .hamster-figures .all-hamsters img { */
+      /* width: 100%;
+      height: 100%; */
+      /* object-fit: cover; */
+    /* } */
+  
+  
+    /* .hamster-figures .three-hamsters {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+      grid-auto-rows: 150px 150px;
+    }
+  
+    .hamster-figures .three-hamsters img {
+      width: 35%;
+      height: 35%;
+      object-fit: cover;
+    } */
+}
+
+/* .small-menu {
+    display: none;
+  }
+  
+  .menu {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 2560px) {
+    .small-menu {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  } */
