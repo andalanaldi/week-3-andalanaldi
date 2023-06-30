@@ -5,9 +5,9 @@
 This Website will consists of home, articles, about, and contact us **navigations menu which are hidden by hamster stack hamburger small menu button**. Despite that, this site display **header, hamsters photos from each kinds, things to know about hamsters, hamster video throuh a youtube embeded video and finally form subission for hamster adoption request**. _Functionality of this site wil be updated later on if there is enough time to do that_.
 
 ## Github Repository, Profile Web Domain, Image Sample, and Media Query
-[link for Hamster Deserves Better Website github repository](https://github.com/RevoU-FSSE-2/week-2-andalanaldi.git)
+[link for Hamster Deserves Better Website github repository](https://github.com/RevoU-FSSE-2/week-3-andalanaldi.git)
 
-[link for Hamster Deserves Better domain](https://hamster-deserves-better.netlify.app/)
+[link for Hamster Deserves Better domain](https://hamster-for-better.netlify.app/)
 
 ![A Syrian Hamster Picture](https://i.ebayimg.com/00/s/NzY1WDkxNQ==/z/dHgAAOSwvqFcsmaK/$_86.JPG)
 
