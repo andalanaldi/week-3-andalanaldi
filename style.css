@@ -4,9 +4,20 @@ body {
     font-family: Bangers, sans-serif;
 }
 
+.winters-mode {
+    background-color: #F6F1E9;
+    color: #4F200D;
+    font-family: Caprasiomo, sans-serif;
+}
+
 @font-face{
     font-family: Bangers;
     src: url(Bangers-Regular.ttf);
+}
+
+@font-face{
+    font-family: Caprasiomo;
+    src: url(Caprasimo-Regular.ttf);
 }
 
 nav {

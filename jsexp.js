@@ -23,3 +23,15 @@ menuItems.forEach(
     menuitem.addEventListener("click", toggleMenu);
   }
 )  
+
+// function wintersMode() {
+//   let element = document.body;
+//   let content = document.getElementById("WintersModetext");
+//   element.className = "winters-mode";
+//   content.innerText = "Winter white Mode is ON";
+// }
+
+function wintersMode() {
+  var element = document.body;
+  element.classList.toggle("winters-mode");
+}
