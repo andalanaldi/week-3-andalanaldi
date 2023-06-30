@@ -21,12 +21,12 @@ If you cannot find the domain link here is the link (a reminder for the author t
 ![Google Lighthouse Result](hamster for better google lighthouse performance.JPG)
 (hamster for better google lighthouse performance 2.JPG)
 
-Because the screenshots could not be loades. Author will mention each of scores here:
+Because the screenshots could not be loaded. Author will mention each of scores here:
 
-Accessibility : 100
-Best Practices : 92
-SEO : 90
-Performance : 98
+Accessibility : 100;
+Best Practices : 92;
+SEO : 90;
+Performance : 98;
 
 
 
