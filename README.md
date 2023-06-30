@@ -30,5 +30,5 @@ Performance : 98.
 **Disclaimer On** : The scores could be easily change depends on internet speed connection, server or if there is modifications on HTML, CSS and Javascript files. 
 
 
-If there is a time for update for sure this documentation will be updated.
+If there is a time for update for sure this documentation will be updated. Google lighthouse, animation carousel and wintersmode already added with no local storage limitations
 
