@@ -26,7 +26,7 @@ Because the screenshots could not be loaded. Author will mention each of scores 
 Accessibility : 100;
 Best Practices : 92;
 SEO : 90;
-Performance : 98
+Performance : 98. 
 **Disclaimer On** : The scores could be easily change depends on internet speed connection, server or if there is modifications on HTML, CSS and Javascript files. 
 
 
